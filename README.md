@@ -20,6 +20,6 @@ From the root of the project, run:
 
 # Some of the difficulties I encountered
 
-  * The gender selection part of the registration form behaves strangely when handled by Selenium. To make it work I had to perform some kind of dance to make it work. I can verbally explain it if needed.
+  * The gender selection part of the registration form behaves strangely when handled by Selenium. To make it work I had to perform some kind of dance. I can verbally explain it if needed.
   * Performing the test case requires a fresh email. However, most throwaway email solution actually defend themselves against automated users, to avoid being used by malicious bots. So, I had to try different ones, and ended up with a provider that offered an API (this is why you don't see the browser checking mails)
   * Sometimes, SwissID just doesn't recognizes the code I give. I don't know why, and I didn't have time to investigate. The code not being recognized is the main reason the solution is not reliable.
